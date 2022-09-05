@@ -1,0 +1,89 @@
+li {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+div {
+    background-color: lightgray;
+    width: 400px;
+    /* padding: 20px; */
+    margin: 3px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+form {
+    background-color: darkgray;
+    width: 500px;
+    padding: 26px;
+    margin: 3px;
+}
+
+.title {
+    color: black;
+    font-size:36px;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-style:italic;
+    text-align: center;
+}
+
+.row {
+    width: 400px;
+    padding: 5px;
+    margin: 1px;
+    border-width: 0px;
+    background-color: lightgray;
+}
+
+.cellRow {
+    width: 400px;
+    padding: 5px;
+    margin: 1px;
+    border-width: 0px;
+    text-align: center;
+    background-color: white;
+    flex-direction: row;
+}
+
+label {
+    font-size: large;
+    font-family: sans-serif;
+    width: 70px;
+    display: inline-block;
+}
+
+input {
+    width: 200px;
+    font-size: large;
+}
+
+button {
+    font-size: x-large;
+    background-color: lightblue;
+}
+
+input:focus {
+    background-color: pink;
+}
+
+button:focus {
+    background-color: pink;
+}
+
+cell {
+    /* display:flex; */
+    /* background-color: lightgray; */
+    /* position: absolute; */
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    font-size: 50px;
+    /* padding-top: 20%; */
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightgray;
+}
